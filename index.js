@@ -13,6 +13,7 @@ let cashCounter = [
   { 0.01: 10 },
 ];
 // To calculate the change
+// get the price and cash given from the user
 const prompt = require("prompt-sync")({ sigint: true });
 // get the price of the product and cash from the customer
 let price = parseFloat(prompt("Please enter the product price: "));
